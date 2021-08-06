@@ -4,10 +4,11 @@ A lightweight library for checking if a url is down or not. Pretty useful while 
 
 Only supports server side apps.
 
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/is-url-online?style=for-the-badge)
-![npm](https://img.shields.io/npm/v/is-url-online?style=for-the-badge)
-![node-current](https://img.shields.io/node/v/is-url-online?style=for-the-badge)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/is-url-online?logo=files&style=for-the-badge)
+![npm](https://img.shields.io/npm/v/is-url-online?logo=npm&style=for-the-badge)
+![node-current](https://img.shields.io/badge/Node-%3E=12-success?style=for-the-badge&logo=node)
 ![npm](https://img.shields.io/npm/dw/is-url-online?style=for-the-badge)
+
 ## Getting started
 
 `pnpm install is-url-online`
