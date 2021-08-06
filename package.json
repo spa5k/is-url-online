@@ -80,8 +80,6 @@
   },
   "typings": "dist/index.d.ts",
   "dependencies": {
-    "got": "^11.8.2",
-    "is-url-online": "^1.0.1",
-    "url-exist": "^3.0.0"
+    "got": "^11.8.2"
   }
 }
