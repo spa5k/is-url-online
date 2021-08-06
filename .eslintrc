@@ -2,6 +2,7 @@
   "extends": ["galex"],
   "env": { "node": true },
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "import/order": "off"
   }
 }
