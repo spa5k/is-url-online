@@ -47,10 +47,20 @@
     }
   },
   "keywords": [
-    "arabic",
-    "chinese",
-    "chinese-to-english",
-    "numbers"
+    "prepend",
+    "protocol",
+    "scheme",
+    "url",
+    "uri",
+    "http",
+    "https",
+    "humanized",
+    "url",
+    "exists",
+    "check",
+    "validation",
+    "promise",
+    "async"
   ],
   "license": "MIT",
   "main": "dist/index.js",
