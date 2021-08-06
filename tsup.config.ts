@@ -1,5 +1,3 @@
-// require("dotenv").config();
-
 import type { Options } from "tsup";
 
 const env = process.env.NODE_ENV;
@@ -11,6 +9,7 @@ export const tsup: Options = {
   format: ["cjs", "esm"],
   minify: env === "production",
   bundle: true,
+  watch: env === "development",
   skipNodeModulesBundle: true,
   entryPoints: ["src/index.ts"],
 };

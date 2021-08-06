@@ -1,20 +1,80 @@
-# esbuild-typescript-library-template
+# Is URL Online?
 
-A template for building a library through typescript and bundling it through esbuild.
+A lightweight library for checking if a url is down or not. Pretty useful while checking if the url inserted is correct one or fake one as normal url checking methods won't work.
 
+Only supports server side apps.
+
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/is-url-online?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/is-url-online?style=for-the-badge)
+![node-current](https://img.shields.io/node/v/is-url-online?style=for-the-badge)
+![npm](https://img.shields.io/npm/dw/is-url-online?style=for-the-badge)
 ## Getting started
 
-1. `git clone git@github.com:Unbuttun/esbuild-typescript-library-template.git my-project`
-2. `cd my-project`
-3. `pnpm install`
+`pnpm install is-url-online`
 
-### Releasing
+or
 
-Under the hood, this library uses [semantic-release](https://github.com/semantic-release/semantic-release) and [commitizen](https://github.com/commitizen/cz-cli).
-The goal is to avoid manual release process. Using `semantic-release` will automatically create a github release (hence tags) as well as an npm release.
-Based on your commit history, `semantic-release` will automatically create a patch, feature or breaking release.
+`npm install is-url-online`
 
-Commands:
+or
 
-- `cz`: interactive CLI that helps you generate a proper git commit message, using [commitizen](https://github.com/commitizen/cz-cli)
-- `semantic-release`: triggers a release (used in CI)
+`yarn add is-url-online`
+
+## Improvements over other libraries
+
+- Promise based usage.
+- Works on both CommonJs and EsModule based libraries.
+- Smaller install size because of just one dependency.
+- Built using typescript.
+- Catches invalid URLs.
+- Actively maintained.
+- Automated Dependency update and publishing after successful tests.
+- Has helper methods to deal with extra usecases.
+
+## Usage
+
+```ts
+import { isUrlOnline } from "is-url-online";
+
+await isUrlOnline("https://github.com/Unbuttun/is-url-online"); //-> true
+//=> true
+
+await isUrlOnline("https://github.com/Unbuttun/notarepo"); //-> false
+
+await isUrlOnline("notaurl"); //-> false
+
+await isUrlOnline("ttps://github.com/Unbuttun/is-url-online abcd"); //-> true
+//because of a space in middle.
+```
+
+## Utils
+### Only Check URL String
+
+This helper method will validate the URL string without checking it online.
+```ts
+import { isUrlString } from "is-url-online";
+
+await isUrlString("https://google.com"); //-> true
+
+await isUrlString("https://google.com/404ingURL"); //-> false
+
+await isUrlString("notaurl"); //-> false
+```
+It uses URL module under the hood.
+
+
+### Prepend HTTP/HTTPS
+
+This helper method prepend `https://` or `http://` to humanized URLs like `github.com` and `localhost`
+```ts
+import {prependHttp} from 'is-url-online';
+// HTTPS is enabled by default.
+prependHttp({ url: "github.com" }) //-> https://github.com
+prependHttp({ url: "github.com", https: false }) //-> http://github.com
+```
+
+
+### References.
+- [`url-exists`](https://github.com/boblauer/url-exists)
+- [`is-url-superb`](https://github.com/sindresorhus/is-url-superb)
+- [`prepend-http`](https://github.com/sindresorhus/prepend-http)
