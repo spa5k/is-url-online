@@ -9,22 +9,22 @@ specifiers:
   '@semantic-release/github': 7.2.3
   '@semantic-release/npm': 7.1.3
   '@semantic-release/release-notes-generator': 9.0.3
-  '@types/jest': ^26.0.24
-  '@types/node': ^16.4.11
-  commitizen: ^4.2.4
-  cz-conventional-changelog: ^3.3.0
-  esbuild: ^0.12.18
-  esbuild-jest: ^0.5.0
-  eslint: ^7.32.0
-  eslint-config-galex: ^2.16.7
+  '@types/jest': 26.0.24
+  '@types/node': 16.4.13
+  commitizen: 4.2.4
+  cz-conventional-changelog: 3.3.0
+  esbuild: 0.12.19
+  esbuild-jest: 0.5.0
+  eslint: 7.32.0
+  eslint-config-galex: 2.16.7
   got: ^11.8.2
-  husky: ^7.0.1
+  husky: 7.0.1
   jest: 27.0.6
-  prettier: ^2.3.2
+  prettier: 2.3.2
   semantic-release: 17.4.4
-  tslib: ^2.3.0
-  tsup: ^4.13.1
-  typescript: ^4.3.5
+  tslib: 2.3.0
+  tsup: 4.13.1
+  typescript: 4.3.5
 
 dependencies:
   got: 11.8.2
@@ -39,11 +39,11 @@ devDependencies:
   '@semantic-release/npm': 7.1.3_semantic-release@17.4.4
   '@semantic-release/release-notes-generator': 9.0.3_semantic-release@17.4.4
   '@types/jest': 26.0.24
-  '@types/node': 16.4.11
+  '@types/node': 16.4.13
   commitizen: 4.2.4
   cz-conventional-changelog: 3.3.0
-  esbuild: 0.12.18
-  esbuild-jest: 0.5.0_esbuild@0.12.18
+  esbuild: 0.12.19
+  esbuild-jest: 0.5.0_esbuild@0.12.19
   eslint: 7.32.0
   eslint-config-galex: 2.16.7_eslint@7.32.0
   husky: 7.0.1
@@ -866,7 +866,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       '@types/yargs': 15.0.14
       chalk: 4.1.2
     dev: true
@@ -1218,7 +1218,7 @@ packages:
   /@types/graceful-fs/4.1.5:
     resolution: {integrity: sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw==}
     dependencies:
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
     dev: true
 
   /@types/http-cache-semantics/4.0.1:
@@ -1264,6 +1264,10 @@ packages:
 
   /@types/node/16.4.11:
     resolution: {integrity: sha512-nWSFUbuNiPKJEe1IViuodSI+9cM+vpM8SWF/O6dJK7wmGRNq55U7XavJHrlRrPkSMuUZUFzg1xaZ1B+ZZCrRWw==}
+
+  /@types/node/16.4.13:
+    resolution: {integrity: sha512-bLL69sKtd25w7p1nvg9pigE4gtKVpGTPojBFLMkGHXuUgap2sLqQt2qUnqmVCDfzGUL0DRNZP+1prIZJbMeAXg==}
+    dev: true
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -2708,7 +2712,7 @@ packages:
       is-symbol: 1.0.4
     dev: true
 
-  /esbuild-jest/0.5.0_esbuild@0.12.18:
+  /esbuild-jest/0.5.0_esbuild@0.12.19:
     resolution: {integrity: sha512-AMZZCdEpXfNVOIDvURlqYyHwC8qC1/BFjgsrOiSL1eyiIArVtHL8YAC83Shhn16cYYoAWEW17yZn0W/RJKJKHQ==}
     peerDependencies:
       esbuild: '>=0.8.50'
@@ -2716,19 +2720,13 @@ packages:
       '@babel/core': 7.14.8
       '@babel/plugin-transform-modules-commonjs': 7.15.0_@babel+core@7.14.8
       babel-jest: 26.6.3_@babel+core@7.14.8
-      esbuild: 0.12.18
+      esbuild: 0.12.19
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /esbuild/0.12.17:
-    resolution: {integrity: sha512-GshKJyVYUnlSXIZj/NheC2O0Kblh42CS7P1wJyTbbIHevTG4jYMS9NNw8EOd8dDWD0dzydYHS01MpZoUcQXB4g==}
-    hasBin: true
-    requiresBuild: true
-    dev: true
-
-  /esbuild/0.12.18:
-    resolution: {integrity: sha512-arWhBQSy+oiBAp8VRRCFvAU+3jyf0gGacABLO3haMHboXCDjzq4WUqyQklst2XRuFS8MXgap+9uvODqj9Iygpg==}
+  /esbuild/0.12.19:
+    resolution: {integrity: sha512-5NuT1G6THW7l3fsSCDkcPepn24R0XtyPjKoqKHD8LfhqMXzCdz0mrS9HgO6hIhzVT7zt0T+JGbzCqF5AH8hS9w==}
     hasBin: true
     requiresBuild: true
     dev: true
@@ -4447,7 +4445,7 @@ packages:
     dependencies:
       '@jest/types': 26.6.2
       '@types/graceful-fs': 4.1.5
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       anymatch: 3.1.2
       fb-watchman: 2.0.1
       graceful-fs: 4.2.6
@@ -4668,7 +4666,7 @@ packages:
     resolution: {integrity: sha512-S5wqyz0DXnNJPd/xfIzZ5Xnp1HrJWBczg8mMfMpN78OJ5eDxXyf+Ygld9wX1DnUWbIbhM1YDY95NjR4CBXkb2g==}
     engines: {node: '>= 10.14.2'}
     dependencies:
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       graceful-fs: 4.2.6
     dev: true
 
@@ -4717,7 +4715,7 @@ packages:
     engines: {node: '>= 10.14.2'}
     dependencies:
       '@jest/types': 26.6.2
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       chalk: 4.1.2
       graceful-fs: 4.2.6
       is-ci: 2.0.0
@@ -4765,7 +4763,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -6976,7 +6974,7 @@ packages:
       chalk: 4.1.2
       chokidar: 3.5.2
       debug: 4.3.2
-      esbuild: 0.12.17
+      esbuild: 0.12.19
       execa: 5.1.1
       globby: 11.0.4
       joycon: 3.0.1
