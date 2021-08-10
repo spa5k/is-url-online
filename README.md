@@ -74,6 +74,10 @@ prependHttp({ url: "github.com" }) //-> https://github.com
 prependHttp({ url: "github.com", https: false }) //-> http://github.com
 ```
 
+### Visualization of this Repo.
+![Visualization of this repo](./diagram.svg
+
+
 
 ### Author
 [Unbuttun](https://github.com/Unbuttun)
