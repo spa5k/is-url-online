@@ -79,6 +79,10 @@ prependHttp({ url: "github.com", https: false }) //-> http://github.com
 
 
 
+### Author
+[Unbuttun](https://github.com/Unbuttun)
+
+
 ### References.
 - [`url-exists`](https://github.com/boblauer/url-exists)
 - [`is-url-superb`](https://github.com/sindresorhus/is-url-superb)
