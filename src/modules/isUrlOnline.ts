@@ -20,6 +20,8 @@ export const isUrlOnline = async (url: string): Promise<boolean> => {
   if (!response) {
     return false;
   }
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
   if (response.statusCode > 400 && response.statusCode <= 500) {
     return false;
   }
