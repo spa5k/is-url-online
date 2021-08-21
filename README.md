@@ -49,9 +49,11 @@ await isUrlOnline("ttps://github.com/Unbuttun/is-url-online abcd"); //-> true
 ```
 
 ## Utils
+
 ### Only Check URL String
 
 This helper method will validate the URL string without checking it online.
+
 ```ts
 import { isUrlString } from "is-url-online";
 
@@ -61,29 +63,30 @@ await isUrlString("https://google.com/404ingURL"); //-> false
 
 await isUrlString("notaurl"); //-> false
 ```
-It uses URL module under the hood.
 
+It uses URL module under the hood.
 
 ### Prepend HTTP/HTTPS
 
 This helper method prepend `https://` or `http://` to humanized URLs like `github.com` and `localhost`
+
 ```ts
-import {prependHttp} from 'is-url-online';
+import { prependHttp } from "is-url-online";
 // HTTPS is enabled by default.
-prependHttp({ url: "github.com" }) //-> https://github.com
-prependHttp({ url: "github.com", https: false }) //-> http://github.com
+prependHttp({ url: "github.com" }); //-> https://github.com
+prependHttp({ url: "github.com", https: false }); //-> http://github.com
 ```
 
 ### Visualization of this Repo.
+
 ![Visualization of this repo](./diagram.svg
 
-
-
 ### Author
+
 [Unbuttun](https://github.com/Unbuttun)
 
-
 ### References.
+
 - [`url-exists`](https://github.com/boblauer/url-exists)
 - [`is-url-superb`](https://github.com/sindresorhus/is-url-superb)
 - [`prepend-http`](https://github.com/sindresorhus/prepend-http)
