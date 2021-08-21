@@ -1,4 +1,6 @@
 name: Release
+
+# Run the workflow when a Pull Request is opened or when changes are pushed to master
 on:
   push:
     branches:
@@ -31,7 +33,6 @@ jobs:
         run: pnpm install
       - name: Build
         run: pnpm build
-
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
