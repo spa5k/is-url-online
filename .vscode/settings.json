@@ -1,3 +1,10 @@
 {
-  "conventionalCommits.scopes": ["main", "deps", "version", "size", "docs"]
+  "conventionalCommits.scopes": [
+    "main",
+    "deps",
+    "version",
+    "size",
+    "docs",
+    "release"
+  ]
 }

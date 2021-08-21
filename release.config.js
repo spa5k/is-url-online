@@ -14,7 +14,7 @@ module.exports = {
       prerelease: true,
     },
   ],
-  repositoryUrl: "https://github.com/Unbuttun/novels-raw-scraper.git",
+  repositoryUrl: "https://github.com/Unbuttun/is-url-online.git",
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
