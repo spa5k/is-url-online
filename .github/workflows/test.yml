@@ -2,10 +2,10 @@ name: Test
 on:
   pull_request:
     branches:
-      - dev
+      - next
   push:
     branches:
-      - dev
+      - next
 jobs:
   runner-job:
     runs-on: ubuntu-latest
