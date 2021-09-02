@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Unbuttun/is-url-online/compare/v1.1.0...v1.2.0) (2021-09-02)
+
+
+### Features
+
+* **deps:** ⬆️ upgrading the deps ([#18](https://github.com/Unbuttun/is-url-online/issues/18)) ([abb3600](https://github.com/Unbuttun/is-url-online/commit/abb360001e787145c53767c96ffe009ffd063a98))
+
 # [1.1.0](https://github.com/Unbuttun/is-url-online/compare/v1.0.3...v1.1.0) (2021-08-21)
 
 
