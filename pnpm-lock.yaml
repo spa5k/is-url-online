@@ -20,7 +20,7 @@ specifiers:
   got: ^11.8.2
   husky: 7.0.2
   jest: 27.1.0
-  prettier: 2.3.2
+  prettier: 2.4.1
   semantic-release: 17.4.7
   tslib: 2.3.1
   tsup: 4.14.0
@@ -48,7 +48,7 @@ devDependencies:
   eslint-config-galex: 2.16.11_eslint@7.32.0
   husky: 7.0.2
   jest: 27.1.0
-  prettier: 2.3.2
+  prettier: 2.4.1
   semantic-release: 17.4.7
   tslib: 2.3.1
   tsup: 4.14.0_typescript@4.4.2
@@ -3391,6 +3391,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -5820,8 +5821,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.3.2:
-    resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
+  /prettier/2.4.1:
+    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -6988,6 +6989,7 @@ packages:
     resolution: {integrity: sha512-JhS3hmcVaXlp/xSo3PKY5R0JqKs5M3IV+exdLHW99qKvKivPO4Z8qbej6mte17SOPqAOVMjt/XGgWacnFSzM3g==}
     engines: {node: '>=0.8.0'}
     hasBin: true
+    requiresBuild: true
     dev: true
     optional: true
 
