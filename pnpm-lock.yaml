@@ -9,7 +9,7 @@ specifiers:
   '@semantic-release/github': 7.2.3
   '@semantic-release/npm': 7.1.3
   '@semantic-release/release-notes-generator': 9.0.3
-  '@types/jest': 27.0.1
+  '@types/jest': 27.0.2
   '@types/node': 16.7.13
   commitizen: 4.2.4
   cz-conventional-changelog: 3.3.0
@@ -38,7 +38,7 @@ devDependencies:
   '@semantic-release/github': 7.2.3_semantic-release@17.4.7
   '@semantic-release/npm': 7.1.3_semantic-release@17.4.7
   '@semantic-release/release-notes-generator': 9.0.3_semantic-release@17.4.7
-  '@types/jest': 27.0.1
+  '@types/jest': 27.0.2
   '@types/node': 16.7.13
   commitizen: 4.2.4
   cz-conventional-changelog: 3.3.0
@@ -1229,8 +1229,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/27.0.1:
-    resolution: {integrity: sha512-HTLpVXHrY69556ozYkcq47TtQJXpcWAWfkoqz+ZGz2JnmZhzlRjprCIyFnetSy8gpDWwTTGBcRVv1J1I1vBrHw==}
+  /@types/jest/27.0.2:
+    resolution: {integrity: sha512-4dRxkS/AFX0c5XW6IPMNOydLn2tEhNhJV7DnYK+0bjoJZ+QTmfucBlihX7aoEsh/ocYtkLC73UbnBXBXIxsULA==}
     dependencies:
       jest-diff: 27.1.0
       pretty-format: 27.1.0
@@ -3391,6 +3391,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -6988,6 +6989,7 @@ packages:
     resolution: {integrity: sha512-JhS3hmcVaXlp/xSo3PKY5R0JqKs5M3IV+exdLHW99qKvKivPO4Z8qbej6mte17SOPqAOVMjt/XGgWacnFSzM3g==}
     engines: {node: '>=0.8.0'}
     hasBin: true
+    requiresBuild: true
     dev: true
     optional: true
 
