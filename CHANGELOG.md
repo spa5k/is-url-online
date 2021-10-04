@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/Unbuttun/is-url-online/compare/v1.3.0...v1.3.1) (2021-10-04)
+
+
+### Bug Fixes
+
+* **release:** ambulance changing tsup build to not just support node ([#31](https://github.com/Unbuttun/is-url-online/issues/31)) ([596a15c](https://github.com/Unbuttun/is-url-online/commit/596a15c3800050dff19951fe576d5706a30b4f22))
+
 # [1.3.0](https://github.com/Unbuttun/is-url-online/compare/v1.2.0...v1.3.0) (2021-10-04)
 
 ### Features
