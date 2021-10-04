@@ -1,4 +1,4 @@
-import got from "got";
+import fetch from "cross-fetch";
 import { isUrlString } from "./isUrlString";
 
 /**
@@ -7,22 +7,18 @@ import { isUrlString } from "./isUrlString";
  * @description Checks whether the URL is online or not by doing a request to the mentioned site.
  */
 export const isUrlOnline = async (url: string): Promise<boolean> => {
-  try {
-    isUrlString(url);
-  } catch {
+  const isString = isUrlString(url);
+
+  if (!isString) {
     return false;
   }
 
-  const response = await got.head(url, {
-    throwHttpErrors: false,
-  });
-
+  const response = await fetch(url);
   if (!response) {
     return false;
   }
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
-  if (response.statusCode > 400 && response.statusCode <= 500) {
+
+  if (response.status > 400 && response.status < 500) {
     return false;
   }
   return true;
