@@ -1,3 +1,17 @@
+# [1.3.0](https://github.com/Unbuttun/is-url-online/compare/v1.2.0...v1.3.0) (2021-10-04)
+
+
+### Features
+
+* **deps:** ⬆️ upgrading the deps ([6951064](https://github.com/Unbuttun/is-url-online/commit/6951064db8f94179d9dbe13f07fcfcb8d81d263d))
+* **main:** ✨ isUrlString no longer throws error, but just returns false ([d356bb9](https://github.com/Unbuttun/is-url-online/commit/d356bb981686c579699711d939728fe9f9b2c0ad))
+* **release:** ✨ changing the actions to use yarn instead of pnpm ([b0c8c77](https://github.com/Unbuttun/is-url-online/commit/b0c8c77d72005046f7f98a25c9e781aea950fc83))
+
+
+### Performance Improvements
+
+* **size:** 🔥 remove got (and 2 others) ([d4c4bd9](https://github.com/Unbuttun/is-url-online/commit/d4c4bd98ea60c655947b5e84db0aa9d7ce3896f5))
+
 # [1.2.0](https://github.com/Unbuttun/is-url-online/compare/v1.1.0...v1.2.0) (2021-09-02)
 
 ### Features
