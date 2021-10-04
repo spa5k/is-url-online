@@ -83,8 +83,8 @@
     "url": "git+https://github.com/Unbuttun/is-url-online.git"
   },
   "scripts": {
-    "build": "NODE_ENV='production' tsup-node",
-    "build:dev": "NODE_ENV='development' tsup-node",
+    "build": "NODE_ENV='production' tsup",
+    "build:dev": "NODE_ENV='development' tsup",
     "cz": "cz",
     "format": "prettier --write .",
     "lint": "eslint src --ext .ts",
