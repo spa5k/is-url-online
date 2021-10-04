@@ -4,12 +4,12 @@ const URL_RESULT_SET: {
   url: string;
   result: boolean | string;
 }[] = [
-  { url: "google", result: "Not a valid URL string" },
-  { url: "bing", result: "Not a valid URL string" },
+  { url: "google", result: false },
+  { url: "bing", result: false },
   { url: "https://github.com/Unbuttun/is-url-online", result: true },
   {
     url: "https://github.com/Unbuttun/is-url-online abcd",
-    result: "There should not be any spaces within the URL",
+    result: false,
   },
   {
     url: "https://www.geeksforgeeks.org/how-to-check-whether-a-script-is-running-under-node-js-or-not/",
@@ -17,7 +17,7 @@ const URL_RESULT_SET: {
   },
   {
     url: "not a url",
-    result: "There should not be any spaces within the URL",
+    result: false,
   },
   {
     url: "https://blog.bitsrc.io/successfully-throwing-async-errors-with-the-jest-testing-library-fda17261733a",
