@@ -4,6 +4,8 @@
  * @description Check if a string is a URL.
  */
 
+import { URL } from "url";
+
 export const isUrlString = (url: string): boolean => {
   if (typeof url !== "string") {
     return false;

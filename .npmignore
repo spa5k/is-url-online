@@ -7,3 +7,9 @@ test
 renovate.json
 .prettierignore
 CHANGELOG.md
+.yarn
+.eslintignore
+.prettierignore
+diagram.svg
+jest.config.js
+release.config.js
