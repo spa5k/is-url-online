@@ -2,9 +2,7 @@
 
 A lightweight library for checking if a url is down or not. Pretty useful while checking if the url inserted is correct one or fake one as normal url checking methods won't work.
 
-~~Only supports server side apps~~.
-
-** Supports both Server and browser due to [cross-fetch](https://github.com/lquixada/cross-fetch) **
+**Supports both Server and browser due to [ohmyfetch](https://github.com/unjs/ohmyfetch)**
 
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/is-url-online?logo=files&style=for-the-badge)
 

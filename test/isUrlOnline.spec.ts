@@ -20,7 +20,7 @@ const URL_RESULT_SET: {
     result: false,
   },
   {
-    url: "https://blog.bitsrc.io/successfully-throwing-async-errors-with-the-jest-testing-library-fda17261733a",
+    url: "https://twitter.com",
     result: true,
   },
 ];

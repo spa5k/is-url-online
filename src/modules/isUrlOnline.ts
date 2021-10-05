@@ -1,4 +1,5 @@
-import fetch from "cross-fetch";
+// import fetch from "cross-fetch";
+import { $fetch } from "ohmyfetch";
 import { isUrlString } from "./isUrlString";
 
 /**
@@ -13,7 +14,7 @@ export const isUrlOnline = async (url: string): Promise<boolean> => {
     return false;
   }
 
-  const response = await fetch(url);
+  const response = await $fetch(url);
   if (!response) {
     return false;
   }

@@ -15,4 +15,5 @@ export const tsup: Options = {
   skipNodeModulesBundle: true,
   entryPoints: ["src/index.ts"],
   esbuildPlugins: [pnpPlugin()],
+  target: "node12",
 };
