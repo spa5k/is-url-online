@@ -1,7 +1,7 @@
 {
   "name": "is-url-online",
   "description": "A small library that checks whether a URL is online or not",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "author": "Unbuttun <unbuttun@gmail.com>",
   "bugs": {
     "url": "https://github.com/Unbuttun/is-url-online/issues"
