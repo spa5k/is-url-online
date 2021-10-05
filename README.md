@@ -94,9 +94,6 @@ prependHttp({ url: "github.com", https: false }); //-> http://github.com
 
 ![Visualization of this repo](./diagram.svg)
 
-### Author
-
-[Unbuttun](https://github.com/Unbuttun)
 
 ### References.
 
