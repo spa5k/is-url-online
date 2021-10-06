@@ -7,8 +7,8 @@ const HTTP_RESULT_SET: {
   { url: "abcd.com", result: "http://abcd.com" },
   { url: "efgh.org", result: "http://efgh.org" },
   {
-    url: "https://github.com/Unbuttun/is-url-online",
-    result: "https://github.com/Unbuttun/is-url-online",
+    url: "https://github.com/spa5k/is-url-online",
+    result: "https://github.com/spa5k/is-url-online",
   },
   {
     url: "//github.com",
@@ -47,8 +47,8 @@ const HTTPS_RESULT_SET: {
   { url: "abcd.com", result: "https://abcd.com" },
   { url: "efgh.org", result: "https://efgh.org" },
   {
-    url: "https://github.com/Unbuttun/is-url-online",
-    result: "https://github.com/Unbuttun/is-url-online",
+    url: "https://github.com/spa5k/is-url-online",
+    result: "https://github.com/spa5k/is-url-online",
   },
   {
     url: "//github.com",
