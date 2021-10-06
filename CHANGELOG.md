@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/spa5k/is-url-online/compare/v1.3.2...v1.3.3) (2021-10-06)
+
+
+### Bug Fixes
+
+* **docs:** 🐛 moving from unbuttun to spa5k ([#33](https://github.com/spa5k/is-url-online/issues/33)) ([b149fb4](https://github.com/spa5k/is-url-online/commit/b149fb431b9b17eaf0c18add3f9de24a797f1b18))
+
 ## [1.3.2](https://github.com/spa5k/is-url-online/compare/v1.3.1...v1.3.2) (2021-10-05)
 
 
