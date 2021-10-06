@@ -14,7 +14,7 @@ module.exports = {
       prerelease: true,
     },
   ],
-  repositoryUrl: "https://github.com/Unbuttun/is-url-online.git",
+  repositoryUrl: "https://github.com/spa5k/is-url-online.git",
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",

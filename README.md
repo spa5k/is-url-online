@@ -47,13 +47,13 @@ or
 ```ts
 import { isUrlOnline } from "is-url-online";
 
-await isUrlOnline("https://github.com/Unbuttun/is-url-online"); //-> true
+await isUrlOnline("https://github.com/spa5k/is-url-online"); //-> true
 
-await isUrlOnline("https://github.com/Unbuttun/notarepo"); //-> false
+await isUrlOnline("https://github.com/spa5k/notarepo"); //-> false
 
 await isUrlOnline("notaurl"); //-> false
 
-await isUrlOnline("ttps://github.com/Unbuttun/is-url-online abcd"); //-> false
+await isUrlOnline("ttps://github.com/spa5k/is-url-online abcd"); //-> false
 
 //because of a space in middle.
 ```

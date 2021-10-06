@@ -2,9 +2,9 @@
   "name": "is-url-online",
   "description": "A small library that checks whether a URL is online or not",
   "version": "1.3.2",
-  "author": "Unbuttun <unbuttun@gmail.com>",
+  "author": "spa5k <unbuttun@gmail.com>",
   "bugs": {
-    "url": "https://github.com/Unbuttun/is-url-online/issues"
+    "url": "https://github.com/spa5k/is-url-online/issues"
   },
   "commitlint": {
     "extends": [
@@ -24,16 +24,16 @@
     "@semantic-release/npm": "8.0.0",
     "@semantic-release/release-notes-generator": "10.0.2",
     "@types/jest": "27.0.2",
-    "@types/node": "16.10.2",
+    "@types/node": "16.10.3",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "@yarnpkg/esbuild-plugin-pnp": "^2.0.0-rc.1",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
-    "esbuild": "0.13.3",
+    "esbuild": "0.13.4",
     "esbuild-jest": "0.5.0",
     "eslint": "7.32.0",
-    "eslint-config-galex": "2.16.12",
+    "eslint-config-galex": "2.16.13",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-inclusive-language": "^2.1.1",
@@ -52,7 +52,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/Unbuttun/is-url-online#readme",
+  "homepage": "https://github.com/spa5k/is-url-online#readme",
   "husky": {
     "hooks": {
       "pre-commit": "pnpm format && pnpm lint",
@@ -80,7 +80,7 @@
   "packageManager": "yarn@3.0.2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Unbuttun/is-url-online.git"
+    "url": "git+https://github.com/spa5k/is-url-online.git"
   },
   "scripts": {
     "build": "NODE_ENV='production' tsup",

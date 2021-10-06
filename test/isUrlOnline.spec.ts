@@ -6,9 +6,9 @@ const URL_RESULT_SET: {
 }[] = [
   { url: "google", result: false },
   { url: "bing", result: false },
-  { url: "https://github.com/Unbuttun/is-url-online", result: true },
+  { url: "https://github.com/spa5k/is-url-online", result: true },
   {
-    url: "https://github.com/Unbuttun/is-url-online abcd",
+    url: "https://github.com/spa5k/is-url-online abcd",
     result: false,
   },
   {
