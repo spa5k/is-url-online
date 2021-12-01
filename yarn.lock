@@ -1864,16 +1864,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/esbuild-plugin-pnp@npm:^2.0.0-rc.1":
-  version: 2.0.0-rc.1
-  resolution: "@yarnpkg/esbuild-plugin-pnp@npm:2.0.0-rc.1"
+"@yarnpkg/esbuild-plugin-pnp@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@yarnpkg/esbuild-plugin-pnp@npm:2.0.0"
   dependencies:
     tslib: ^1.13.0
   peerDependencies:
     esbuild: ">=0.10.0"
-  bin:
-    esbuild-plugin-pnp: ./lib/cli.js
-  checksum: acdf505aace3c04172386f8a67c4eb066a74e74fd33adb78028b3aa490965d9fb737b7f76d154e3061a6457a3769ec80afe31101c16d8be354a3daf277da2f73
+  checksum: 7b98034f4c0931aa15e9cb2c77c5c485d89df3af31f1ea8223411f8880a2fbe88377d9f71ff45c04aecbcc8b2b47e167991a0f948dc2ec1f4a6ee026fea1fe9d
   languageName: node
   linkType: hard
 
@@ -6157,7 +6155,7 @@ __metadata:
     "@types/node": 16.10.3
     "@typescript-eslint/eslint-plugin": ^4.33.0
     "@typescript-eslint/parser": ^4.33.0
-    "@yarnpkg/esbuild-plugin-pnp": ^2.0.0-rc.1
+    "@yarnpkg/esbuild-plugin-pnp": 2.0.0
     commitizen: 4.2.4
     cz-conventional-changelog: 3.3.0
     esbuild: 0.13.4
