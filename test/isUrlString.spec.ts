@@ -1,3 +1,4 @@
+import { describe, expect, it } from "vitest";
 import { isUrlString } from "../src";
 
 const URL_RESULT_SET: {
@@ -30,7 +31,7 @@ describe("Wrong URLs", () => {
     (i) => typeof i.result === "string"
   );
   urlsThatThrowError.forEach(({ url, result }, index) => {
-    test(`#${index + 1}: Testing ${url}`, () => {
+    it(`#${index + 1}: Testing ${url}`, () => {
       expect(() => isUrlString(url)).toThrow(result?.toString());
     });
   });
@@ -41,7 +42,7 @@ describe("Correct URLs", () => {
     (i) => typeof i.result === "boolean"
   );
   urlsThatThrowError.forEach(({ url, result }, index) => {
-    test(`#${index + 1}: Testing ${url}`, () => {
+    it(`#${index + 1}: Testing ${url}`, () => {
       expect(isUrlString(url)).toBe(result);
     });
   });
