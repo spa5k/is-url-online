@@ -6,11 +6,9 @@ A lightweight library for checking if a url is down or not. Pretty useful while 
 
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/is-url-online?logo=files&style=for-the-badge)
 
-![npm](https://img.shields.io/npm/v/is-url-online?logo=npm&style=for-the-badge)
-
-![node-current](https://img.shields.io/badge/Node-%3E=12-success?style=for-the-badge&logo=node)
-
-![npm](https://img.shields.io/npm/dw/is-url-online?style=for-the-badge)
+[![NPM downloads](https://img.shields.io/npm/dm/is-url-online.svg?style=for-the-badge)](https://www.npmjs.com/package/is-url-online)
+[![npm](https://img.shields.io/npm/v/is-url-online?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/is-url-online)
+![node-current](https://img.shields.io/badge/Node-%3E=14-success?style=for-the-badge&logo=node)
 
 ## Getting started
 
@@ -54,7 +52,6 @@ await isUrlOnline("https://github.com/spa5k/notarepo"); //-> false
 await isUrlOnline("notaurl"); //-> false
 
 await isUrlOnline("ttps://github.com/spa5k/is-url-online abcd"); //-> false
-
 //because of a space in middle.
 ```
 
