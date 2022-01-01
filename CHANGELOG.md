@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/spa5k/is-url-online/compare/v1.3.3...v1.4.0) (2022-01-01)
+
+
+### Features
+
+* **main:** ✨ added more checks to make sure that url is online ([#38](https://github.com/spa5k/is-url-online/issues/38)) ([2d6cdf4](https://github.com/spa5k/is-url-online/commit/2d6cdf49e18a588432b87b9fd55c1a831730514c))
+
 ## [1.3.3](https://github.com/spa5k/is-url-online/compare/v1.3.2...v1.3.3) (2021-10-06)
 
 
