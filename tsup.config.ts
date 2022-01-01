@@ -1,19 +1,15 @@
-import { pnpPlugin } from "@yarnpkg/esbuild-plugin-pnp";
 import type { Options } from "tsup";
-
-const env = process.env.NODE_ENV;
 
 export const tsup: Options = {
   splitting: true,
-  sourcemap: env === "development",
+  sourcemap: true,
   clean: true,
   dts: true,
   format: ["cjs", "esm"],
-  minify: env === "production",
+  minify: true,
   bundle: true,
-  watch: env === "development",
+  watch: false,
   skipNodeModulesBundle: true,
   entryPoints: ["src/index.ts"],
-  esbuildPlugins: [pnpPlugin()],
-  target: "node12",
+  target: ["node14"],
 };

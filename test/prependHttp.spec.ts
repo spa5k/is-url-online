@@ -1,3 +1,4 @@
+import { describe, expect, it } from "vitest";
 import { prependHttp } from "../src";
 
 const HTTP_RESULT_SET: {
@@ -66,7 +67,7 @@ const HTTPS_RESULT_SET: {
 
 describe("HTTP Tests", () => {
   HTTP_RESULT_SET.forEach(({ url, result }, index) => {
-    test(`#${index + 1}: Testing ${url}`, () => {
+    it(`#${index + 1}: Testing ${url}`, () => {
       expect(prependHttp({ url, https: false })).toStrictEqual(result);
     });
   });
@@ -74,7 +75,7 @@ describe("HTTP Tests", () => {
 
 describe("HTTPS Tests", () => {
   HTTPS_RESULT_SET.forEach(({ url, result }, index) => {
-    test(`#${index + 1}: Testing ${url}`, () => {
+    it(`#${index + 1}: Testing ${url}`, () => {
       expect(prependHttp({ url })).toStrictEqual(result);
     });
   });

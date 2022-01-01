@@ -11,23 +11,25 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [14.x, 16.x, 17.x]
 
     name: Node.js ${{ matrix.node }}
 
     steps:
       - uses: actions/checkout@v2
-
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.24.4
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "yarn"
-      - name: Install yarn latest
-        run: yarn set version berry && yarn set version latest
+          cache: "pnpm"
       - name: Install deps
-        run: yarn
+        run: pnpm install
       - name: Linting
-        run: yarn lint
+        run: pnpm lint
+      - name: build
+        run: pnpm build
       - name: Test
-        run: yarn test
+        run: pnpm test
