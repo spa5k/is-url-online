@@ -1,4 +1,4 @@
-import { fetch } from "ohmyfetch";
+import { requestWorks } from "./https-utils";
 import { isUrlString } from "./isUrlString";
 /**
  * @param  {string} url
@@ -11,28 +11,18 @@ export const isUrlOnline = async (url: string): Promise<boolean> => {
   if (!isString) {
     return false;
   }
-  let response;
-  try {
-    response = await fetch(url, { method: "HEAD" });
-  } catch {
-    return false;
-  }
-  if (response.ok) {
-    return true;
-  }
-  if (!response) {
-    try {
-      response = await fetch(url, { method: "GET" });
-    } catch {
-      return false;
-    }
-  }
-  if (response.ok) {
+
+  // first check HEAD
+  let response = await requestWorks(url, "HEAD");
+  if (response) {
     return true;
   }
 
-  if (response.status > 400 && response.status < 500) {
-    return false;
+  // then check GET
+  response = await requestWorks(url, "GET");
+  if (response) {
+    return true;
   }
-  return true;
+
+  return false;
 };
