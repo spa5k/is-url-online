@@ -18,7 +18,7 @@ export const isUrlOnline = async (url: string): Promise<boolean> => {
     return true;
   }
 
-  // then check HEAD
+  // then check GET
   response = await requestWorks(url, "GET");
   if (response) {
     return true;
