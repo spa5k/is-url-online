@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/spa5k/is-url-online/compare/v1.4.0...v1.5.0) (2022-08-09)
+
+
+### Features
+
+* **main:** ✨ updating deps, removing source map and minification ([8a04e4d](https://github.com/spa5k/is-url-online/commit/8a04e4ddb14893bcc6164ec050f1a45134a4a6b7))
+* use the built-in https package for testing the URLs ([#40](https://github.com/spa5k/is-url-online/issues/40)) ([59da3a3](https://github.com/spa5k/is-url-online/commit/59da3a37f971bc540dfcdf5cdc828f0867e66312))
+
 # [1.4.0](https://github.com/spa5k/is-url-online/compare/v1.3.3...v1.4.0) (2022-01-01)
 
 ### Features
