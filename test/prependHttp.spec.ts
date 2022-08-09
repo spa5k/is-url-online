@@ -1,5 +1,6 @@
+/* eslint-disable sonarjs/no-duplicate-string */
 import { describe, expect, it } from "vitest";
-import { prependHttp } from "../src";
+import { prependHttp } from "../dist";
 
 const HTTP_RESULT_SET: {
   url: string;

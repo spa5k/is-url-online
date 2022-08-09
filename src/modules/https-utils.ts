@@ -23,15 +23,15 @@ export function requestWorks(
 ): Promise<boolean> {
   return new Promise<boolean>((resolve) => {
     try {
-      let req = request(url, { method }, (result) => {
-        return resolve(isStatusOK(result));
+      const req = request(url, { method }, (result) => {
+        resolve(isStatusOK(result));
       });
       req.on("error", (_error) => {
         resolve(false);
       });
       req.end();
     } catch {
-      return resolve(false);
+      resolve(false);
     }
   });
 }

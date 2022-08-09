@@ -6,9 +6,9 @@ import { isUrlString } from "./isUrlString";
  * @description Checks whether the URL is online or not by doing a request to the mentioned site.
  */
 export const isUrlOnline = async (url: string): Promise<boolean> => {
-  const isString = isUrlString(url);
+  const isUrl = isUrlString(url);
 
-  if (!isString) {
+  if (!isUrl) {
     return false;
   }
 
@@ -20,9 +20,5 @@ export const isUrlOnline = async (url: string): Promise<boolean> => {
 
   // then check GET
   response = await requestWorks(url, "GET");
-  if (response) {
-    return true;
-  }
-
-  return false;
+  return !!response;
 };

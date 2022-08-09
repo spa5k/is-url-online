@@ -1,30 +1,26 @@
 # [1.4.0](https://github.com/spa5k/is-url-online/compare/v1.3.3...v1.4.0) (2022-01-01)
 
-
 ### Features
 
-* **main:** ✨ added more checks to make sure that url is online ([#38](https://github.com/spa5k/is-url-online/issues/38)) ([2d6cdf4](https://github.com/spa5k/is-url-online/commit/2d6cdf49e18a588432b87b9fd55c1a831730514c))
+- **main:** ✨ added more checks to make sure that url is online ([#38](https://github.com/spa5k/is-url-online/issues/38)) ([2d6cdf4](https://github.com/spa5k/is-url-online/commit/2d6cdf49e18a588432b87b9fd55c1a831730514c))
 
 ## [1.3.3](https://github.com/spa5k/is-url-online/compare/v1.3.2...v1.3.3) (2021-10-06)
 
-
 ### Bug Fixes
 
-* **docs:** 🐛 moving from unbuttun to spa5k ([#33](https://github.com/spa5k/is-url-online/issues/33)) ([b149fb4](https://github.com/spa5k/is-url-online/commit/b149fb431b9b17eaf0c18add3f9de24a797f1b18))
+- **docs:** 🐛 moving from unbuttun to spa5k ([#33](https://github.com/spa5k/is-url-online/issues/33)) ([b149fb4](https://github.com/spa5k/is-url-online/commit/b149fb431b9b17eaf0c18add3f9de24a797f1b18))
 
 ## [1.3.2](https://github.com/spa5k/is-url-online/compare/v1.3.1...v1.3.2) (2021-10-05)
 
-
 ### Bug Fixes
 
-* **release:** bug Improving the performance ([d12efb4](https://github.com/spa5k/is-url-online/commit/d12efb480d85a317f2595f32d4a1c1d67164632d))
+- **release:** bug Improving the performance ([d12efb4](https://github.com/spa5k/is-url-online/commit/d12efb480d85a317f2595f32d4a1c1d67164632d))
 
 ## [1.3.1](https://github.com/spa5k/is-url-online/compare/v1.3.0...v1.3.1) (2021-10-04)
 
-
 ### Bug Fixes
 
-* **release:** ambulance changing tsup build to not just support node ([#31](https://github.com/spa5k/is-url-online/issues/31)) ([596a15c](https://github.com/spa5k/is-url-online/commit/596a15c3800050dff19951fe576d5706a30b4f22))
+- **release:** ambulance changing tsup build to not just support node ([#31](https://github.com/spa5k/is-url-online/issues/31)) ([596a15c](https://github.com/spa5k/is-url-online/commit/596a15c3800050dff19951fe576d5706a30b4f22))
 
 # [1.3.0](https://github.com/spa5k/is-url-online/compare/v1.2.0...v1.3.0) (2021-10-04)
 

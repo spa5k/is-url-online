@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isUrlString } from "../src";
+import { isUrlString } from "../dist";
 
 const URL_RESULT_SET: {
   url: string;
@@ -34,6 +34,9 @@ describe("Wrong URLs", () => {
     it(`#${index + 1}: Testing ${url}`, () => {
       expect(() => isUrlString(url)).toThrow(result?.toString());
     });
+  });
+  it(`1. google`, async () => {
+    expect(isUrlString("not a url")).toBe(false);
   });
 });
 

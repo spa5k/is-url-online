@@ -91,7 +91,6 @@ prependHttp({ url: "github.com", https: false }); //-> http://github.com
 
 ![Visualization of this repo](./diagram.svg)
 
-
 ### References.
 
 - [`url-exists`](https://github.com/boblauer/url-exists)
